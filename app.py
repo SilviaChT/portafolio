@@ -14,7 +14,7 @@ from controllers.academico import AcademicosController, AcademicoController, Enc
 app = Flask(__name__)
 # dialect+driver://username:password@host:port/database
 # es compatible con MySQL, Oracle, PostgreSQL, SQLite
-app.config['SQLALCHEMY_DATABASE_URI']='mysql://root:root@localhost/portafolioo'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql://asoi47i8tfjklqt8:pn80lp8e5w6gssup@l6slz5o3eduzatkw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/rdjw9zc75oqwhs3p'
 api = Api(app=app)
 @app.before_first_request
 def iniciador():
